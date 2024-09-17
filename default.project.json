@@ -1,0 +1,44 @@
+{
+  "name": "Template Roblox Project",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$path": "src/Shared",
+
+      "Animations": {
+        "$className": "Folder"
+      },
+      "Classes": {
+        "$className": "Folder"
+      },
+      "Libraries": {
+        "$className": "Folder"
+      },
+      "Packages": {
+        "$className": "Folder"
+      },
+      "Particles": {
+        "$className": "Folder"
+      },
+      "Remotes": {
+        "$className": "Folder"
+      },
+      "Sounds": {
+        "$className": "Folder"
+      },
+      "Config": {
+        "$className": "Configuration"
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "src/Server"                  
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/Client"
+      }
+    }
+  }
+}

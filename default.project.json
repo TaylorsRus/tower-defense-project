@@ -1,21 +1,11 @@
 {
-  "name": "Template Roblox Project",
+  "name": "Entity Component System Showcase",
   "tree": {
     "$className": "DataModel",
 
     "ReplicatedStorage": {
       "$path": "src/Shared",
-
       "Animations": {
-        "$className": "Folder"
-      },
-      "Classes": {
-        "$className": "Folder"
-      },
-      "Libraries": {
-        "$className": "Folder"
-      },
-      "Packages": {
         "$className": "Folder"
       },
       "Particles": {
@@ -27,8 +17,11 @@
       "Sounds": {
         "$className": "Folder"
       },
-      "Config": {
-        "$className": "Configuration"
+      "Units": {
+        "$className": "Folder",
+        "Creeps": {
+          "$className": "Folder"
+        }
       }
     },
 
